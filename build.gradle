@@ -16,8 +16,8 @@ plugins {
     id 'com.github.kt3k.coveralls' version '2.8.2'
 }
 
-group = 'com.github.dawnwords'
-version = '0.2.4'
+group = 'com.healthcare'
+version = '0.1.0'
 
 repositories {
     jcenter()
@@ -40,8 +40,8 @@ test {
 gradlePlugin {
     plugins {
         greetingsPlugin {
-            id = 'com.github.dawnwords.jacoco.badge'
-            implementationClass = 'com.github.dawnwords.jacoco.badge.JacocoBadgePlugin'
+            id = 'com.healthcare.jacoco.badge'
+            implementationClass = 'com.healthcare.jacoco.badge.JacocoBadgePlugin'
         }
     }
 }
